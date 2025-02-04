@@ -1,0 +1,7 @@
+version: '3'
+services:
+  vue-app:
+    build: .
+    ports:
+      - "8083:80"  # Memetakan port 8082 di host ke port 80 di dalam kontainer
+    container_name: e-office
